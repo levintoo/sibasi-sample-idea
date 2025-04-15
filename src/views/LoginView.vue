@@ -25,7 +25,7 @@ const form = ref({
 const handleSubmit = async () => {
   const isValid = validateForm()
   if (isValid) {
-    await router.push({ name: 'dashboard' })
+    await router.push({ name: 'home' })
   }
 }
 
