@@ -4,6 +4,6 @@ import AppLayout from '@/layouts/AppLayout.vue'
 
 <template>
   <AppLayout>
-    This is the home page.
+    This is the dashboard.
   </AppLayout>
 </template>
