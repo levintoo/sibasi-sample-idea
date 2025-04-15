@@ -10,12 +10,6 @@ const route = useRoute()
 const data = {
   navMain: [
     {
-      title: 'Dashboard',
-      url: { name: 'dashboard' },
-      icon: SquareChartGantt,
-      isActive: route.name === 'dashboard',
-    },
-    {
       title: 'Home',
       url: { name: 'home' },
       icon: Home,
