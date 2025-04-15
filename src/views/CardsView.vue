@@ -21,14 +21,14 @@ const cards = [
 
 <template>
   <AppLayout>
-    <h1 class="font-semibold">Responsive Cards</h1>
+    <h1 class="font-medium">Responsive Cards</h1>
     <div class="mt-3 grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="{ quote, title } in cards"
         :key="quote"
         class="p-4 rounded-lg border border-gray-200 bg-white"
       >
-        <h2 class="text-sm font-semibold">Card {{ title }}</h2>
+        <h2 class="text-sm text-gray-800 font-semibold">Card {{ title }}</h2>
         <p class="text-sm text-gray-600 mt-1">
           {{ quote }}
         </p>
